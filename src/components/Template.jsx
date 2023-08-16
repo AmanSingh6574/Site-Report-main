@@ -99,52 +99,51 @@ function Template() {
         </div>
         <div className="Summary-container">
           <h2 className="Summary">Summary Of Work Done</h2>
-          {data?.text1 && <div ><p className="content-image">1. {data?.text1}</p>
-            {imgUrl?.[0] && <img width={600} height={300} src={imgUrl?.[0]} alt="img" loading="lazy" />}</div>}
+          {data?.text1 && <div ><p className="content-image">1. {data?.text1}</p></div>}
+          {imgUrl?.[0] && <img width={600} height={300} src={imgUrl?.[0]} alt="img" loading="lazy" />}
 
-          {data?.text2 && <div><p className="content-image">2. {data?.text2}</p>
-            {imgUrl?.[1] && <img width={600} height={300} src={imgUrl?.[1]} alt="img" loading="lazy" />}</div>}
+          {data?.text2 && <div><p className="content-image">2. {data?.text2}</p></div>}
+          {imgUrl?.[1] && <img width={600} height={300} src={imgUrl?.[1]} alt="img" loading="lazy" />}
 
-          {data?.text3 && <div><p className="content-image">3. {data?.text3}</p>
-            {imgUrl?.[2] && <img width={600} height={300} src={imgUrl?.[2]} alt="img" loading="lazy" />}</div>}
+          {data?.text3 && <div><p className="content-image">3. {data?.text3}</p></div>}
+          {imgUrl?.[2] && <img width={600} height={300} src={imgUrl?.[2]} alt="img" loading="lazy" />}
 
-          {data?.text4 && <div><p className="content-image">4. {data?.text4}</p>
-            {imgUrl?.[3] && <img width={600} height={300} src={imgUrl?.[3]} alt="img" loading="lazy" />}</div>}
+          {data?.text4 && <div><p className="content-image">4. {data?.text4}</p></div>}
+          {imgUrl?.[3] && <img width={600} height={300} src={imgUrl?.[3]} alt="img" loading="lazy" />}
 
-          {data?.text5 && <div ><p className="content-image">5. {data?.text5}</p>
-            {imgUrl?.[4] && <img width={600} height={300} src={imgUrl?.[4]} alt="img" loading="lazy" />}</div>}
+          {data?.text5 && <div ><p className="content-image">5. {data?.text5}</p></div>}
+          {imgUrl?.[4] && <img width={600} height={300} src={imgUrl?.[4]} alt="img" loading="lazy" />}
 
-          {data?.text6 && <div><p className="content-image">6. {data?.text6}</p>
-            {imgUrl?.[5] && <img width={600} height={300} src={imgUrl?.[5]} alt="img" loading="lazy" />}</div>}
+          {data?.text6 && <div><p className="content-image">6. {data?.text6}</p></div>}
+          {imgUrl?.[5] && <img width={600} height={300} src={imgUrl?.[5]} alt="img" loading="lazy" />}
 
-          {data?.text7 && <div ><p className="content-image">7. {data?.text7}</p>
-            {imgUrl?.[6] && <img width={600} height={300} src={imgUrl?.[6]} alt="img" loading="lazy" />}</div>}
+          {data?.text7 && <div ><p className="content-image">7. {data?.text7}</p></div>}
+          {imgUrl?.[6] && <img width={600} height={300} src={imgUrl?.[6]} alt="img" loading="lazy" />}
 
-          {data?.text8 && <div ><p className="content-image">8. {data?.text8}</p>
-            {imgUrl?.[7] && <img width={600} height={300} src={imgUrl?.[7]} alt="img" loading="lazy" />}</div>}
+          {data?.text8 && <div ><p className="content-image">8. {data?.text8}</p></div>}
+          {imgUrl?.[7] && <img width={600} height={300} src={imgUrl?.[7]} alt="img" loading="lazy" />}
 
-          {data?.text9 && <div ><p className="content-image">9. {data?.text9}</p>
-            {imgUrl?.[8] && <img width={600} height={300} src={imgUrl?.[8]} alt="img" loading="lazy" />}</div>}
+          {data?.text9 && <div ><p className="content-image">9. {data?.text9}</p></div>}
+          {imgUrl?.[8] && <img width={600} height={300} src={imgUrl?.[8]} alt="img" loading="lazy" />}
 
-          {data?.text10 && <div><p className="content-image">10. {data?.text10}</p>
-            {imgUrl?.[9] && <img width={600} height={300} src={imgUrl?.[9]} alt="img" loading="lazy" />}</div>}
+          {data?.text10 && <div><p className="content-image">10. {data?.text10}</p></div>}
+          {imgUrl?.[9] && <img width={600} height={300} src={imgUrl?.[9]} alt="img" loading="lazy" />}
 
-          {data?.text11 && <div><p className="content-image">11. {data?.text11}</p>
-            {imgUrl?.[10] && <img width={600} height={300} src={imgUrl?.[10]} alt="img" loading="lazy" />}</div>}
+          {data?.text11 && <div><p className="content-image">11. {data?.text11}</p></div>}
+          {imgUrl?.[10] && <img width={600} height={300} src={imgUrl?.[10]} alt="img" loading="lazy" />}
 
-          {data?.text12 && <div><p className="content-image">12. {data?.text12}</p>
-            {imgUrl?.[11] && <img width={600} height={300} src={imgUrl?.[11]} alt="img" loading="lazy" />}</div>}
+          {data?.text12 && <div><p className="content-image">12. {data?.text12}</p></div>}
+          {imgUrl?.[11] && <img width={600} height={300} src={imgUrl?.[11]} alt="img" loading="lazy" />}
 
           {data?.text13 && <div>
-            <p className="content-image">13. {data?.text13}</p>
-            {imgUrl?.[12] && <img width={600} height={300} src={imgUrl?.[12]} alt="img" loading="lazy" />}</div>
-          }
+            <p className="content-image">13. {data?.text13}</p></div>}
+          {imgUrl?.[12] && <img width={600} height={300} src={imgUrl?.[12]} alt="img" loading="lazy" />}
 
-          {data?.text14 && <div ><p className="content-image">14. {data?.text14}</p>
-            {imgUrl?.[13] && <img width={600} height={300} src={imgUrl?.[13]} alt="img" loading="lazy" />} </div>}
+          {data?.text14 && <div ><p className="content-image">14. {data?.text14}</p></div>}
+          {imgUrl?.[13] && <img width={600} height={300} src={imgUrl?.[13]} alt="img" loading="lazy" />}
 
-          {data?.text15 && <div><p className="content-image">15. {data?.text15}</p>
-            {imgUrl?.[14] && <img width={600} height={300} src={imgUrl?.[14]} alt="img" loading="lazy" />}</div>}
+          {data?.text15 && <div><p className="content-image">15. {data?.text15}</p></div>}
+          {imgUrl?.[14] && <img width={600} height={300} src={imgUrl?.[14]} alt="img" loading="lazy" />}
 
 
 
